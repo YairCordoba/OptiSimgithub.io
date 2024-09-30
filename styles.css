@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('3671320.jpg'); /* Cambia esta línea por la URL de tu imagen de fondo */
+    background-size: cover;
+    padding: 20px;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.301); /* Fondo blanco con un poco de transparencia */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.botones-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.botones-nav a {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.botones-nav a:hover {
+    background-color: #0056b3;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.teclado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.teclado button {
+    flex: 1 1 30%;
+    margin: 5px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer a {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.footer a:hover {
+    background-color: #0056b3;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px; /* Ajusta el tamaño del logo según necesites */
+}
+
+.logo-footer {
+    margin-top: 20px;
+    text-align: center;
+}
